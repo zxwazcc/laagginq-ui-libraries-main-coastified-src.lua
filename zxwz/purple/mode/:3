@@ -180,7 +180,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	MainFrameGlow1.Size = UDim2.new(1, 30, 1, 30)
 	MainFrameGlow1.ZIndex = 0
 	MainFrameGlow1.Image = "rbxassetid://5028857084"
-	MainFrameGlow1.ImageColor3 = Color3.fromRGB(28, 18, 45)
+	MainFrameGlow1.ImageColor3 = Color3.fromRGB(20, 9, 18)
 	MainFrameGlow1.ScaleType = Enum.ScaleType.Slice
 	MainFrameGlow1.SliceCenter = Rect.new(24, 24, 276, 276)
 	MainFrameGlow1.ImageTransparency = 1
@@ -226,7 +226,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	
 	LeftFrame.Name = "LeftFrame"
 	LeftFrame.Parent = MainFrame
-	LeftFrame.BackgroundColor3 = Color3.fromRGB(31, 28, 54)
+	LeftFrame.BackgroundColor3 = Color3.fromRGB(38, 28, 54)
 	LeftFrame.BorderSizePixel = 0
 	LeftFrame.ClipsDescendants = true
 	LeftFrame.Size = UDim2.new(0, 41, 0, 331)
