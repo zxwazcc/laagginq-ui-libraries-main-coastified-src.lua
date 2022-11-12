@@ -404,12 +404,12 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 	ShadowFrame.AutoButtonColor = false
 	ShadowFrame.Font = Enum.Font.SourceSans
 	ShadowFrame.Text = ""
-	ShadowFrame.TextColor3 = Color3.fromRGB(0, 0, 0)
+	ShadowFrame.TextColor3 = Color3.fromRGB(28, 18, 45)
 	ShadowFrame.TextSize = 14.000
 
 	AllPages.Name = "AllPages"
 	AllPages.Parent = MainFrame
-	AllPages.BackgroundColor3 = Color3.fromRGB(24, 21, 48)
+	AllPages.BackgroundColor3 = Color3.fromRGB(28, 18, 45)
 	AllPages.BorderSizePixel = 0
 	AllPages.Position = UDim2.new(0.123, 0,0.139, 0)
 	AllPages.Size = UDim2.new(0, 381, 0, 271)
@@ -632,7 +632,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 		end)
 
 
-		TabBtnGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(27, 96, 186)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(19, 101, 190))}
+		TabBtnGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 18, 45)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 18, 45))}
 		TabBtnGradient.Name = "TabBtnGradient"
 		TabBtnGradient.Parent = TabBtn
 
@@ -658,7 +658,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 		TabBtnCircle.Parent = TabBtn
 		TabBtnCircle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		TabBtnCircle.BackgroundTransparency = 1.000
-		TabBtnCircle.BorderColor3 = Color3.fromRGB(27, 42, 53)
+		TabBtnCircle.BorderColor3 = Color3.fromRGB(28, 18, 45)
 		TabBtnCircle.Position = UDim2.new(0.099, 0,0.427, 0)
 		TabBtnCircle.Size = UDim2.new(0, 4, 0, 4)
 		TabBtnCircle.ZIndex = 3
@@ -700,7 +700,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 			Button.Name = "Button"
 			Button.Parent = NewPages
-			Button.BackgroundColor3 = Color3.fromRGB(29, 26, 53)
+			Button.BackgroundColor3 = Color3.fromRGB(28, 18, 45)
 			Button.BorderSizePixel = 0
 			Button.Size = UDim2.new(0, 375, 0, 32)
 			Button.AutoButtonColor = false
@@ -723,7 +723,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 				TweenService:Create(
 					Button,
 					TweenInfo.new(.2, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-					{BackgroundColor3 = Color3.fromRGB(27, 96, 186)}
+					{BackgroundColor3 = Color3.fromRGB(28, 18, 45)}
 				):Play()
 				wait(.2)
 				TweenService:Create(
@@ -734,7 +734,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 				TweenService:Create(
 					Button,
 					TweenInfo.new(.2, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-					{BackgroundColor3 = Color3.fromRGB(29, 26, 53)}
+					{BackgroundColor3 = Color3.fromRGB(28, 18, 45)}
 				):Play()
 				TweenService:Create(
 					Button,
@@ -748,7 +748,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(33, 31, 56)}
+						{BackgroundColor3 = Color3.fromRGB(28, 18, 45)}
 					):Play()
 				end
 			)
@@ -758,7 +758,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						Button,
 						TweenInfo.new(.3, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(29, 26, 53)}
+						{BackgroundColor3 = Color3.fromRGB(28, 18, 45)}
 					):Play()
 				end
 			)
@@ -787,7 +787,7 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 
 			ToggleBtn.Name = "ToggleBtn"
 			ToggleBtn.Parent = NewPages
-			ToggleBtn.BackgroundColor3 = Color3.fromRGB(29, 26, 53)
+			ToggleBtn.BackgroundColor3 = Color3.fromRGB(28, 18, 45)
 			ToggleBtn.BorderSizePixel = 0
 			ToggleBtn.Size = UDim2.new(0, 375, 0, 32)
 			ToggleBtn.AutoButtonColor = false
@@ -802,13 +802,13 @@ function WindowTable:Window(Htitle,GMtitle,toclose)
 					TweenService:Create(
 						ToggleBox,
 						TweenInfo.new(.35, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(135, 128, 176)}
+						{BackgroundColor3 = Color3.fromRGB(28, 18, 45)}
 					):Play()
 				else
 					TweenService:Create(
 						ToggleBox,
 						TweenInfo.new(.35, Enum.EasingStyle.Quart, Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(74, 68, 94)}
+						{BackgroundColor3 = Color3.fromRGB(28, 18, 45)}
 					):Play()
 				end
 			end)
